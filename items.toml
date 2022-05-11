@@ -1,6 +1,30 @@
 ["4-leaf Clover"]
+exploring = ["Misty Forest"]
+flea = 2
+rarity = "common"
 sell = 2500
 xp = 2000
-flea = 2
-rarity = common
-source = ["Misty Forest"]
+
+
+[Acorn]
+exploring = ["Misty Forest"]
+givable = true
+sell = 50
+xp = 50
+
+
+[Grapes]
+flea = 3
+givable = true
+sell = 250
+xp = 250
+
+
+[Wine]
+sell = 1000
+[Wine.crafting]
+level = 1
+price = 250
+[Wine.crafting.items]
+"Glass Bottle" = 1
+Grapes = 100
